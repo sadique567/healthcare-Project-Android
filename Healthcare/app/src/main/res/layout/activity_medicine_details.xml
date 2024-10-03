@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back2"
+    tools:context=".MedicineDetailsActivity">
+    <TextView
+        android:id="@+id/ltd_title_24x7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="24*7 HEALTHCARE"
+        android:textColor="@color/purple_200"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/ltd_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="Deliver Location :  Pune"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/md_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="Buy Medicines"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/use_md"
+        android:text="dicriptio"
+        android:inputType="textMultiLine"
+        android:textSize="20sp"
+        android:textColor="@color/yellowLight"
+        android:editable="false"
+        android:ems="10"
+        android:maxLines="2"
+        android:gravity="start|top"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/desc_md"
+        android:text="hi ,\nHellow"
+        android:inputType="textMultiLine"
+        android:textSize="20sp"
+        android:textColor="@color/yellowLight"
+        android:editable="false"
+        android:ems="20"
+        android:padding="10dp"
+        android:gravity="start|top"
+        />
+    <TextView
+        android:id="@+id/md_totalCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="#25D906"
+        android:textSize="24sp"
+        android:textStyle="italic"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/md_backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:backgroundTint="@color/colorRed"
+            android:background="@drawable/input_bg"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:textSize="25dp"/>
+        <Button
+            android:id="@+id/md_add_to_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD TO CART"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/colorRed"
+            android:background="@drawable/input_bg"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+</LinearLayout>
